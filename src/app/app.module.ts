@@ -10,7 +10,14 @@ import { MainComponent } from './main/main.component';
 import { BooksComponent } from './books/books.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, SideMenuComponent, MainComponent, BooksComponent],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    SideMenuComponent,
+    MainComponent,
+    BooksComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],

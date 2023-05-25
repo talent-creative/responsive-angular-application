@@ -4,19 +4,9 @@ import { MainComponent } from './main/main.component';
 import { BooksComponent } from './books/books.component';
 
 const routes: Routes = [
-  {
-    path: '',
-    redirectTo: '/main',
-    pathMatch: 'full',
-  },
-  {
-    path: 'main',
-    component: MainComponent,
-  },
-  {
-    path: 'books',
-    component: BooksComponent,
-  },
+  { path: '', redirectTo: '/main', pathMatch: 'full' },
+  { path: 'main', component: MainComponent },
+  { path: 'books', component: BooksComponent },
 ];
 
 @NgModule({
